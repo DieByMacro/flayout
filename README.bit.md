@@ -6,7 +6,7 @@ A Grid layout using flexbox, powered by styled-components based on Grid Foundati
 Feel free to download and custom media query as your own project needs.
 
 ## Table of content
-- [Installation](#installation)
+- [Installtion](#installtion)
 - [Usage](#usage)
 - [Example](#example)
 - [Tips from a developer](#tips-from-a-developer)
@@ -32,11 +32,22 @@ Cons:
 
 
 ## Installation
+```npm i @bit/diebymacro.ducpub.flayout.main```
 
-Please treat this just a add-on to your project, you can download the source code, put it in your project and import using relative path, whatever suits you.
+
 
 
 ## Usage
+### Using bit
+Initialized Bit with `bit init`
+
+Import Flayout with bit using `bit import`:
+
+`bit import @bit/diebymacro.ducpub.flayout.main --path your/src/path`
+
+#### Otherwise, you can download the source code, put it in your project and import using relative path, whatever suits you.
+
+<br />
 
 ### Using Flayout with Horizontal layout (Most often used)
 `
