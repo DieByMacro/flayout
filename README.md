@@ -8,12 +8,27 @@ Feel free to download and custom media query as your own project needs.
 [Live demo](https://codesandbox.io/s/yqvxqvknjj)
 
 ## Table of content
-- [Installation](#installation)
-- [Usage](#usage)
-- [Example](#example)
-- [Tips from a developer](#tips-from-a-developer)
-- [Contact](#contact)
-- [Further Reading](#further-reading)
+- [**Flayout**](#flayout)
+      - [Built by a Frontend Developer, for other developers.](#built-by-a-frontend-developer-for-other-developers)
+  - [Table of content](#table-of-content)
+  - [Who should you this?](#who-should-you-this)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Using Flayout with Horizontal layout (Most often used)](#using-flayout-with-horizontal-layout-most-often-used)
+    - [Using Flayout with Vertical layout](#using-flayout-with-vertical-layout)
+    - [Basic HTML structure for Flayout:](#basic-html-structure-for-flayout)
+  - [Examples](#examples)
+    - [Example 1: Horizontal layout with dynamic grid layout](#example-1-horizontal-layout-with-dynamic-grid-layout)
+    - [Example 2: Column with `auto` and `shrink`](#example-2-column-with-auto-and-shrink)
+    - [Example 3: Horizontal layout with combining of fixed width and flexible columns.](#example-3-horizontal-layout-with-combining-of-fixed-width-and-flexible-columns)
+    - [Example 4: Horizontal layout with **MARGIN** gutter](#example-4-horizontal-layout-with-margin-gutter)
+    - [Example 5: Horizontal layout with **PADDING** gutter](#example-5-horizontal-layout-with-padding-gutter)
+    - [Example 6: Vertical layout.](#example-6-vertical-layout)
+  - [Tips from a developer](#tips-from-a-developer)
+  - [Contact](#contact)
+  - [Projects used with Flayout](#projects-used-with-flayout)
+  - [Further Reading](#further-reading)
+  - [License](#license)
 
 ## Who should you this?
 
@@ -49,7 +64,8 @@ import {<Row>, <Col>} from 'your/path/to/flayout/source/code';
 `
 import {<FRow>, <FCol>} from 'your/path/to/flayout/source/code';
 `
-###### or even better, go straight into source code and change the export variable name
+
+**or even better, go straight into source code and change the export variable name**
 
 ### Using Flayout with Vertical layout
 `
