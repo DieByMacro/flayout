@@ -5,6 +5,8 @@ A Grid layout using flexbox, powered by styled-components based on Grid Foundati
 
 Feel free to download and custom media query as your own project needs.
 
+[Live demo](https://codesandbox.io/s/yqvxqvknjj)
+
 ## Table of content
 - [Installation](#installation)
 - [Usage](#usage)
