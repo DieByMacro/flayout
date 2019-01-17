@@ -33,25 +33,25 @@ Cons:
 
 ## Installation
 
-Please treat this just a add-on to your project, you can download the source code, put it in your project and import using relative path, whatever suits you.
+Please treat this just an add-on to your project, you can download the source code, put it in your project and import using relative path, whatever suits you.
 
 
 ## Usage
 
 ### Using Flayout with Horizontal layout (Most often used)
 `
-import {<Row>, <Col>} from '@bit/diebymacro.ducpub.flayout.main';
+import {<Row>, <Col>} from 'your/path/to/flayout/source/code';
 `
 
 `<Row>` and `<Col>` are very popular names for Row and Column Components. In order to prevent naming confliction with other CSS libs, frameworks, you can choose to import:
 `
-import {<FRow>, <FCol>} from '@bit/diebymacro.ducpub.flayout.main';
+import {<FRow>, <FCol>} from 'your/path/to/flayout/source/code';
 `
 ###### or even better, go straight into source code and change the export variable name
 
 ### Using Flayout with Vertical layout
 `
-import {<Row>, <VCol>} from '@bit/diebymacro.ducpub.flayout.main';
+import {<Row>, <VCol>} from 'your/path/to/flayout/source/code';
 `
 
 You can guess that, `V` as in Vertical.
